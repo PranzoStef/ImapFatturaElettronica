@@ -11,6 +11,7 @@ porta IMAP
 mail
 password
 
+
 ci sono due variabili:
 
 ID_UltimaFattura e DataUltimoControlloFatture che servono per identificare l'ultima fattura scaricata per non scaricarle ogni volta tutte.
