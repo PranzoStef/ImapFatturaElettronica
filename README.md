@@ -1,6 +1,7 @@
 # ImapFatturaElettronica
 
 Scaricare le fatture Elettroniche dalla posta certificata con il controllo MailKit (https://www.nuget.org/packages/MailKit/).
+
 Le prove le ho fatte con una pec del mio dominio presso Aruba.
 
 prima di provare il codice installare il controllo.
