@@ -8,5 +8,6 @@ namespace ImapFatturaElettronica
 {
     class Helper
     {
+
     }
 }

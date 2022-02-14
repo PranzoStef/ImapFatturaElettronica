@@ -1,0 +1,15 @@
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\ImapFatturaElettronica.exe.config
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\ImapFatturaElettronica.exe
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\ImapFatturaElettronica.pdb
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\MailKit.dll
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\MimeKit.dll
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\System.Buffers.dll
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\MailKit.pdb
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\MailKit.xml
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\MimeKit.pdb
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\bin\Debug\MimeKit.xml
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\obj\Debug\ImapFatturaElettronica.csproj.AssemblyReference.cache
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\obj\Debug\ImapFatturaElettronica.csproj.CoreCompileInputs.cache
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\obj\Debug\ImapFatturaElettronica.csproj.CopyComplete
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\obj\Debug\ImapFatturaElettronica.exe
+D:\GitHub\ImapFatturaElettronica\ImapFatturaElettronica\ImapFatturaElettronica\obj\Debug\ImapFatturaElettronica.pdb
