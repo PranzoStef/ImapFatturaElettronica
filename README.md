@@ -5,8 +5,11 @@ Scaricare le fatture Elettroniche dalla posta certificata con il controllo MailK
 Le prove le ho fatte con una pec del mio dominio presso Aruba.
 
 prima di provare il codice installare il controllo.
+
 Valorizzare le variabili:
+
 server IMAP
+
 porta IMAP
 mail
 password
