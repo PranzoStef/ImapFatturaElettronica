@@ -8,13 +8,13 @@ prima di provare il codice installare il controllo.
 
 Valorizzare le variabili:
 
-server IMAP
+-server IMAP
 
-porta IMAP
+-porta IMAP
 
-mail
+-mail
 
-password
+-password
 
 ci sono due variabili:
 
