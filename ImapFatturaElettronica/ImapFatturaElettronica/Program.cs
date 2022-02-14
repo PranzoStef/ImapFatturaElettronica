@@ -12,8 +12,8 @@ namespace ImapFatturaElettronica
             //variabili comuni
             string imapServer = "imaps.pec.aruba.it";
             string imapPort = "993";
-            string emailAddress = "pec@pec.it"; 
-            string emailPass = "xxxxx"; 
+            string emailAddress = "pec@pec.it";
+            string emailPass = "xxxxxxxxx"; 
             string ID_UltimaFattura = "0";
             string DataUltimoControlloFatture = "01/01/2020";
             string folderXML = "C:\\XmlFE\\";
@@ -68,10 +68,7 @@ namespace ImapFatturaElettronica
                                             FileStream file = new FileStream(folderXML + fileName, FileMode.Create);
                                             part.Content.DecodeTo(file);
                                             file.Close();
-                                        }
-
-                                        using (var stream = File.Create(fileName))
-                                            part.Content.DecodeTo(stream);
+                                        }                                       
                                     }
                                 }
                             }
