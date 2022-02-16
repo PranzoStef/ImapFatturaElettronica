@@ -1,4 +1,5 @@
 ﻿using MailKit;
+using MailKit.Search;
 using MimeKit;
 using System;
 using System.IO;
@@ -18,6 +19,7 @@ namespace ImapFatturaElettronica
             string DataUltimoControlloFatture = "01/01/2020";
             string folderXML = "C:\\XmlFE\\";
 
+            // se la cartella non esiste, la creo
             if(!System.IO.Directory.Exists(folderXML))
             {
                 System.IO.Directory.CreateDirectory(folderXML);
@@ -30,9 +32,8 @@ namespace ImapFatturaElettronica
             client.Inbox.Open(FolderAccess.ReadOnly);
 
             int ultimouid = int.Parse(ID_UltimaFattura);
-            var query = MailKit.Search.SearchQuery.FromContains("sdi");
-            query.And(MailKit.Search.SearchQuery.DeliveredAfter(DateTime.Parse(DataUltimoControlloFatture)));
-
+            var query = SearchQuery.DeliveredAfter(DateTime.Parse(DataUltimoControlloFatture))
+                    .And(SearchQuery.FromContains("sdi"));
             foreach (var item in client.Inbox.Search(query))
             {
                 if (item.Id > ultimouid)
@@ -63,6 +64,7 @@ namespace ImapFatturaElettronica
                                     {
                                         var part = (MimePart)attachment;
                                         var fileName = part.FileName;
+                                        // verifico se il file esiste o meno.
                                         if(!System.IO.File.Exists(folderXML + fileName))
                                         {
                                             FileStream file = new FileStream(folderXML + fileName, FileMode.Create);
